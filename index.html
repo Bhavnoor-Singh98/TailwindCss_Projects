@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="shortcut icon" href="./Assets/logo.svg" type="image/x-icon" />
     <title>Razorpay-Best Payment Solution for Online Payments in India</title>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body class="lg:overflow-x-hidden">
     <div class="banner text-center m-4">
@@ -145,41 +146,124 @@
     </div>
 
     <!-- feature section starts -->
-    <section>
-      <img src="" alt="" />
-      <img src="" alt="" />
+    <section class="relative lg:mt-[70px] overflow-hidden">
+      <img
+        src="./Assets/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        class="hidden absolute -top-[8rem] left-[6.5rem] lg:inline-block"
+        width="233px"
+        height="167px"
+      />
+      <img
+        src="./Assets/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        class="hidden absolute top-[3rem] right-0 rotate-180 lg:inline-block"
+      />
 
-      <div>
-        <h2></h2>
-        <div></div>
+      <div class="relative w-11/12 max-w-[1080px] mx-auto lg:pt-4">
+        <h2
+          class="hidden lg:block text-center text-2xl leading-[1.2] font-bold"
+        >
+          Accept Payments with Razorpay Payment Suite
+        </h2>
+        <h2 class="lg:hidden text-center text-4xl leading-[1.2] font-bold">
+          Explore Razorpay Payment Suite
+        </h2>
+        <div class="bg-[#61cea6] w-6 h-1 mx-auto mt-4 mb-6"></div>
         <!-- content box -->
-        <div class="content">
+        <div
+          class="content w-full min-h-[520px] lg:border lg:rounded-md my-10 lg:my-20 flex bg-white"
+        >
           <!-- left section  -->
-          <div>
-            <h3></h3>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div
+            class="w-full flex flex-col justify-evenly lg:justify-between sm:pt-4 lg:py-8 pl-10"
+          >
+            <h3
+              class="text-xl lg:text-3xl font-[550] lg:font-semibold lg:leading-10 max-w-[180px] lg:max-w-[500px]"
+            >
+              Supercharge your business with the all-powerful<span
+                class="text-blue-700"
+              >
+                Payment Gateway</span
+              >
+            </h3>
+            <ul class="space-y-2">
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>100+ Payment Methods</span>
+              </li>
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>Industry Leading Success Rate</span>
+              </li>
+
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>Superior Checkout Experience</span>
+              </li>
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>Easy to Integrate</span>
+              </li>
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>Instant Settlements from day 1</span>
+              </li>
+              <li class="flex space-x-2">
+                <img src="./Assets/check.svg" alt="" />
+                <span>In-depth Reporting and Insights</span>
+              </li>
             </ul>
             <!-- div for button anmd hyperlink  -->
-            <div>
-              <button></button>
-              <div>
-                <a href="http://"></a>
-                <i></i>
+            <div
+              class="flex flex-col-reverse lg:flex-row lg:items-center lg:space-x-4"
+            >
+              <button
+                class="flex items-center text-lg font-semibold text-white bg-blue-500 rounded px-4 py-3 hover:bg-blue-600 hover:cursor-pointer transition-all duration-200"
+              >
+                Sign Up Now<svg
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="w-[18px] h-[18px] ml-2 pt-1"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="flex items-center cursor-pointer group">
+                <a
+                  href="#"
+                  class="font-semibold text-base text-blue-600 group-hover:text-blue-900 transition-all duration-200"
+                  >Know More</a
+                >
+                <i
+                  data-feather="chevron-right"
+                  class="pt-1 w-5 h-6 text-blue-600 group-hover:text-blue-900 transition-all duration-200"
+                ></i>
               </div>
             </div>
           </div>
           <!-- right section  -->
           <!-- background image  -->
-          <img src="" alt="" />
+          <div class="hidden lg:block">
+            <img
+              src="./Assets/payment-suite.png"
+              alt=""
+              class="max-w-[600px] absolute bottom-7 right-0"
+            />
+          </div>
         </div>
       </div>
     </section>
     <!-- feature section ends  -->
+
+    <!-- feather library  -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
